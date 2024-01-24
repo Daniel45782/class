@@ -1,5 +1,5 @@
-text = "hello, python"
-text = "hello, python"
+
+text = "hello, python!"
 print(text[0])#выводит первый символ
 print(text[0:5])#выводит под строку текст от 0 до 5 символа
 print(text[4:10])#выведет строку от 4 до 10 символа 
