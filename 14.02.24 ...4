@@ -1,0 +1,78 @@
+#1
+x = int(input("Введите число"))
+c = x % 3
+if c == 0 :
+    print ("Кратно трем")
+    
+else :
+    print ("Не кратно трем")
+#2
+x = int(input("Введите число"))
+y = int(input("Введите число"))
+if x > y :
+    max = x
+    min = y
+else:
+    max = y
+    min = x
+    
+z = (min + 0.5) / (1 + max**2)
+print (z)
+#3
+x = int(input("Введите число"))
+y = int(input("Введите число"))
+if x > y :
+    max = x
+    min = y
+else:
+    max = y
+    min = x
+ 
+if x < 0:
+    z = max
+else:
+    z = min
+ 
+print (z)
+#4
+x = int(input("Введите число"))
+y = int(input("Введите число"))
+if x > y :
+    max = x
+    min = y
+else:
+    max = y
+    min = x
+ 
+if y < 0:
+    z = max**2
+else:
+    z = min**2
+ 
+print (z)
+#5
+x = int(input("Введите число"))
+y = int(input("Введите число"))
+z = int(input("Введите число"))
+if x > y:
+    if x > z:
+        x = max
+    else:
+        z = max
+else:
+    if y > z:
+        y = max
+    else:
+        z = max
+
+if x < y:
+    if x < z:
+        x = min
+    else:
+        z = min
+else:
+    if y < z:
+        y = min
+    else:
+        z = min
+L = 2*max - 3*min
