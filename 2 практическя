@@ -1,0 +1,65 @@
+#coding: utf-8
+#Задача 1
+a = int(input("Введите первое число:"))
+b = int(input("Введите второе число:"))
+if a > b:
+    max = a 
+    min = b
+else:
+    max = b 
+    min = a
+print ("Максимальное число:",max)
+print ("Минимальное число:",min)
+#2
+a = int(input("Впишите радиус круга"))
+b = int(input("Впишите сторону квадрата"))
+d = a*2
+if d <= b:
+    print ("Круг впишется в квадрат")
+else:
+    print ("Круг не впишется в квадрат")
+#3
+x = int(input("Введите x:"))
+if x > 0:
+    y = x**2
+elif x < 0:
+    y = 1/(x**2)
+else:
+    y = "нет решений"
+print (y)
+#4
+a = int(input("Введите сторону квадрата"))
+b = int(input("Введите радиус круга"))
+di = a*(2**(1/2))
+d = b*2
+if di <= d:
+    print ("Квадрат вписывается в круг")
+else:
+    print("Квадрат не вписывается в круг")
+#5
+a = int(input("Введите первое число:"))
+b = int(input("Введите второе число:"))
+if a > b:
+    max = a 
+    min = b
+else:
+    max = b 
+    min = a
+print ("Максимальное число:",max)
+#6
+x = int(input("Введите x:"))
+if x >= 0:
+    y = x**2
+elif x <= 0:
+    y = 1/(x**2)
+print (y)
+#7
+a = int(input("Введите первое число:"))
+b = int(input("Введите второе число:"))
+if a > b:
+    max = a 
+    min = b
+else:
+    max = b 
+    min = a
+print ("Минимальное число:",min)
