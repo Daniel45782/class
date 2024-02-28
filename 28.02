@@ -1,0 +1,50 @@
+x = int(input("x = "))
+y=int(input("y ="))
+m= int(input("m= "))
+n= int(input("n= "))
+a = x - y
+b = m / n
+if a < b:
+    x += 1
+    print(x)
+
+else:
+    print("good")
+#################
+a = input("Введите трехзначное число")
+a = list(a)
+if int(a[0]) == int(a[1]) - 1 == int(a[2]) - 2:
+    print("Содержаине последовательное")
+else:
+    print("Содержаине не последовательное")
+#################
+a = input("Введите четырехзначное число")
+a = list(a)
+b = int(a[0]) + int(a[1])
+c = int(a[2]) + int(a[3])
+if b == c:
+    print("счастливый")
+else:
+    print("не счастливый")
+#############################
+k = int(input("Введите число"))
+l = int(input("Введите число"))
+n = int(input("Введите число"))
+m = int(input("Введите число"))
+if l % k == 0 and n % k == 0 and m % k == 0:
+    print("делимое")
+else:
+    print("Не делимое")
+###############################
+A = int(input("Введите число"))
+B = int(input("Введите число"))
+a = int(input("Введите число"))
+b = int(input("Введите число"))
+c = int(input("Введите число"))
+R = A*B
+D = a*b
+C = b*c
+if R >= D or R >= C:
+    print("проходит")
+else:
+    print("не проходит")
