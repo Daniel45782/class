@@ -1,0 +1,42 @@
+x = float(input("Введите число"))
+if x < 0:
+    x = 4
+    print (x)
+elif 0 <= x < 1:
+    x = (x**2) + (3*x) + 4
+    print (x)
+else:
+    x = x + 7
+    print(x)
+############################
+x = float(input("Введите число"))
+a = float(input("Введите число"))
+b = float(input("Введите число"))
+import math 
+from math import sin
+if x < 0:
+    с = (sin(x+(3.14/2)))**2
+    print(c)
+elif a <= x <= b:
+    f = 2.7**x * sin(x+(3.14/2))
+    print (f)
+else:
+    l = (abs(x+(3.14/3))+(2.1*(10**-3)))**0.5
+    print (l)
+##############################################
+k = int(input("Введите число"))
+l = int(input("Введите число"))
+x = float(input("Введите число"))
+import math
+from math import sin, log
+if m == min(k,l):
+    y = (sin(abs(x)))/((x**2)+1)
+elif m == max(k,l):
+    y = abs(x) * log(1+x)
+elif min(k,l) < m < max(k,l):
+    y = (x**3) + x + (10**-2)
+else:
+    y = -1
+z = (y**4) - (y**2)+5
+print(z)
+    
