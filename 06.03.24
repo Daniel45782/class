@@ -34,3 +34,12 @@ if x > 0 and y > 0 or x < 0 and y > 0:
     print("координата находится в полуплоскости")
 else:
     print("нет")
+#27
+a = int(input("a"))
+b = int(input("b"))
+c = int(input("c"))
+P = a + b + c
+print ("Периметр равен", P)
+p = (a + b + c)/2
+S = (p*(p-a)*(p-b)*(p-c))**0,5
+print ("Площадь равна", S)
