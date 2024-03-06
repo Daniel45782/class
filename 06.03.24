@@ -1,0 +1,36 @@
+#23
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+r = int(input("Введите число: "))
+R = int(input("Введите число: "))
+print(r**2 < x**2 + y**2 < R**2)
+#24
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+if x > 0 and y > 0:
+    print("1")
+if x < 0 and y > 0:
+    print("2 ")
+if x < 0 and y < 0:
+    print("3")
+if x > 0 and y < 0:
+    print("4 ")
+#25
+x = abs(int(input("x")))
+y = int(input("y"))
+R = int(input("R"))
+if y > 0:
+    t = R - x
+    c = ((t**2) + (y**2))**0.5
+    print (c)
+else:
+    c = ((x**2) + (y**2))**0.5
+    F = R - c
+    print (F)
+#26
+x = int(input("Введите число: "))
+y = int(input("Введите число: "))
+if x > 0 and y > 0 or x < 0 and y > 0:
+    print("координата находится в полуплоскости")
+else:
+    print("нет")
