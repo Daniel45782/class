@@ -1,0 +1,39 @@
+a = []
+n = 0
+while 3 * (n**4) - 730 * n < 5:
+    a.append(n)
+    n += 1
+print (max(a))
+######################
+from math import exp, log
+b = []
+c = 1
+while exp(c) - 1000*log(c) <= 10:
+    b.append(c)
+    c += 1
+print (max(b))
+############################
+m = int(input("Введите целое число"))
+k = 1
+a = []
+while 4**k < m:
+    a.append(k)
+    k += 1
+print (max(a))
+#############################
+n = int(input("Введите целое число"))
+r = 1
+a = []
+while 2**r <= n:
+    a.append(r)
+    r += 1
+print (r-1)
+##################################
+a = 0
+b = 1
+
+m = int(input())
+while m >= b:
+    b = a+b
+    a = b-a
+print(b)
