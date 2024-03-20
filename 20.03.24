@@ -1,0 +1,37 @@
+a = [0,1]
+n = int(input())
+for i in range (2,n+1):
+    f = a[i-2]+a[i-1]
+    a.append(f)
+    print(a)
+#############
+c = []
+a = []
+while b:= input():
+    a.append(int(b))
+for i in a:
+    if i % 2 == 0:
+        print (i)
+    else:
+        c.append(i)
+    ################
+c = []
+a = []
+d = []
+while b:= input():
+    a.append(int(b))
+for i in a:
+    if i % 2 == 0:
+        d.append(i)
+    else:
+        c.append(i)
+print(d)
+print(c)
+#######################
+a = []
+while b:= input():
+    a.append(int(b))
+for i in a:
+    if i % 3 == 0:
+         a.remove(i)
+print (a)
