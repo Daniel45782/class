@@ -1,0 +1,33 @@
+s = 1
+for a in range(1,11):
+    s*=a
+print(s)
+#222222##########
+s = 0
+for a in range(1,21):
+    s+=a**2
+print(s)
+#3333333333333333333333
+from math import *
+x = float(input())
+h = float(input())
+n = int(input())
+s = 0
+
+for i in range(0,n+1):
+    if abs(cos(x+i*h)) < 0.5:
+        s+=1
+print(s) 
+#44444444444444444444444444444
+from math import sqrt
+a = int(input())
+b = int(input())
+h = int(input())
+for x in range(a,b+1,h):
+    print('x =',str(x)+':',sqrt(1+2*x+3*x**3) )
+#555555555555
+import numpy
+a=0
+for a in numpy.arange(0,10.5+1.5,1.5):
+    print('a =',str(a)+':', 2*a**5-2*a**2-1.7*a+12)
+    a+=1.5
