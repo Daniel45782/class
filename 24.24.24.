@@ -15,3 +15,12 @@ if v ==2:
     print(f" {a} prost")
 else:
     print(f" {a} neprost")
+###########################
+o = int(input("min"))
+p = int(input("max"))
+l = 0
+for i in range(o,p+1):
+    i = str(i)
+    if int(i[0])+int(i[1])+int(i[2]) == int(i[3])+int(i[4])+int(i[5]):
+        lucky+=1
+print('количество', l)
